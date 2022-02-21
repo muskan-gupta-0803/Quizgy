@@ -8,19 +8,24 @@
     --primary-color:#ff7f50;
     --white-color:#fff;
     --secondary-color:#800000;
+    --font-family:'Akaya Telivigala', cursive;
+}
+
+.lilac-navbar{
+    position: fixed;
 }
 
 /* HOMEPAGE STYLES */
 
 .main-heading{
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: var(--font-family);
     color:var(--secondary-color);
     font-size: 8rem;
 }
 
 .quiz-logo {
     color:var(--secondary-color);
-    font-family:'Akaya Telivigala', cursive;
+    font-family:var(--font-family);
     font-size: 2rem;
 }
 
