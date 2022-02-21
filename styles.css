@@ -9,6 +9,8 @@
     --white-color:#fff;
     --secondary-color:#800000;
     --font-family:'Akaya Telivigala', cursive;
+    --error-light:rgba(255, 0, 0, 0.5);
+    --success-light: rgba(0, 128, 0, 0.5);
 }
 
 .lilac-navbar{
