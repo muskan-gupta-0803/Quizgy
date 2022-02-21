@@ -7,16 +7,16 @@
     <title>Quizgy | Homepage</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://lilac-ui.netlify.app/css/components.css">
-    <link rel="stylesheet" href="/css/ques.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
-    </style>
+    <link rel="stylesheet" href="/css/result.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="lilac-navbar">
             <!-- logo -->
-            <a href="index.html" class="logo">
+            <a href="/index.html" class="logo">
                 <div class="lilac-nav-logo quiz-logo">
                     QUIZGY
                 </div>
@@ -36,16 +36,16 @@
 
     <main class="main-container">
         <section class="hd">
-            <h1 class="quiz-topic align-center">QUIZ topic</h1>
-            <h2 class="align-center">Good luck!</h2>
+            <h1 class="quiz-topic align-center">FINAL SCORE</h1>
+            <h2 class="align-center">15/25</h2>
         </section>
         <section class="questions">
             <div class="ques-block align-center">
                 <h3 class="ques" id="ques-one"> Q1. Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h3>
                 <div class="options">
-                    <button class="btn btn-link ans-button">OPTION 1</button>
+                    <button class="btn btn-link ans-button correct-ans">OPTION 1</button>
                     <button class="btn btn-link ans-button">OPTION 2</button>
-                    <button class="btn btn-link ans-button">OPTION 3</button>
+                    <button class="btn btn-link ans-button wrong-ans">OPTION 3</button>
                     <button class="btn btn-link ans-button">OPTION 4</button>
                 </div>
                 <div class="qpage-buttons">
@@ -56,9 +56,9 @@
             <div class="ques-block align-center">
                 <h3 class="ques" id="ques-two"> Q2. Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h3>
                 <div class="options">
-                    <button class="btn btn-link ans-button">OPTION 1</button>
+                    <button class="btn btn-link ans-button wrong-ans">OPTION 1</button>
                     <button class="btn btn-link ans-button">OPTION 2</button>
-                    <button class="btn btn-link ans-button">OPTION 3</button>
+                    <button class="btn btn-link ans-button correct-ans">OPTION 3</button>
                     <button class="btn btn-link ans-button">OPTION 4</button>
                 </div>
                 <div class="qpage-buttons">
@@ -70,9 +70,9 @@
                 <h3 class="ques" id="ques-three"> Q3. Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h3>
                 <div class="options">
                     <button class="btn btn-link ans-button">OPTION 1</button>
-                    <button class="btn btn-link ans-button">OPTION 2</button>
+                    <button class="btn btn-link ans-button correct-ans">OPTION 2</button>
                     <button class="btn btn-link ans-button">OPTION 3</button>
-                    <button class="btn btn-link ans-button">OPTION 4</button>
+                    <button class="btn btn-link ans-button wrong-ans">OPTION 4</button>
                 </div>
                 <div class="qpage-buttons">
                     <a href="#ques-four" class="td-none"><button class="btn btn-primary">Next Question</button></a>
@@ -82,8 +82,8 @@
             <div class="ques-block align-center">
                 <h3 class="ques" id="ques-four"> Q4. Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h3>
                 <div class="options">
-                    <button class="btn btn-link ans-button">OPTION 1</button>
-                    <button class="btn btn-link ans-button">OPTION 2</button>
+                    <button class="btn btn-link ans-button correct-ans">OPTION 1</button>
+                    <button class="btn btn-link ans-button wrong-ans">OPTION 2</button>
                     <button class="btn btn-link ans-button">OPTION 3</button>
                     <button class="btn btn-link ans-button">OPTION 4</button>
                 </div>
@@ -95,13 +95,13 @@
             <div class="ques-block align-center">
                 <h3 class="ques" id="ques-five"> Q5. Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h3>
                 <div class="options">
-                    <button class="btn btn-link ans-button">OPTION 1</button>
+                    <button class="btn btn-link ans-button wrong-ans">OPTION 1</button>
                     <button class="btn btn-link ans-button">OPTION 2</button>
                     <button class="btn btn-link ans-button">OPTION 3</button>
-                    <button class="btn btn-link ans-button">OPTION 4</button>
+                    <button class="btn btn-link ans-button correct-ans">OPTION 4</button>
                 </div>
                 <div class="qpage-buttons">
-                    <a href="#" class="td-none"><button type="submit" class="btn btn-primary">Submit</button></a>
+                    <a href="/index.html" class="td-none"><button type="submit" class="btn btn-primary">Back to Categories</button></a>
                 </div>                
             </div>
             
