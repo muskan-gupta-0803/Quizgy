@@ -1,0 +1,22 @@
+@import "/css/ques.css";
+
+.correct-ans{
+    border-color: var(--success-green);
+    color: var(--success-green);
+    background-color: var(--success-light);
+}
+
+.wrong-ans{
+    border-color: var(--error-red);
+    color: var(--error-red);
+    background-color: var(--error-light);
+}
+
+.ans-button{
+    border-color: inherit;
+}
+
+.ans-button:hover{
+    background-color: initial;
+}
+
