@@ -1,0 +1,95 @@
+/* @import "/styles.css" */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#ff7f50;
+    --white-color:#fff;
+    --secondary-color:#800000;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+/* HOMEPAGE STYLES */
+
+.main-heading{
+    font-family: 'Akaya Telivigala', cursive;
+    color:var(--secondary-color);
+    font-size: 8rem;
+}
+
+.quiz-logo {
+    color:var(--secondary-color);
+    font-family:'Akaya Telivigala', cursive;
+    font-size: 2rem;
+}
+
+.main-container{
+    margin-top: 7vh;
+    height: 100%;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-badge{
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.td-none{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+/* RULES STYLES */
+
+.rule-item{
+    margin-top: 1.5rem;
+}
+
+.check-icon{
+    margin-right: 0.5rem;
+    color: var(--primary-color);
+}
+
+.play-btn{
+    color:var(--white-color);
+    margin-top: 2rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-btn:hover,
+.back-category-btn:hover{
+    box-shadow: 2px 2px 10px;
+    cursor: pointer;
+}
+
+.arrow-icon{
+    margin-left: 0.4rem;
+}
