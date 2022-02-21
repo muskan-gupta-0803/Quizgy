@@ -1,0 +1,47 @@
+@import "/styles.css";
+
+.quiz-topic{
+    font-family: var(--font-family);
+    font-size: 2rem;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hd{
+    position: fixed;
+    top:9vh;
+}
+
+.ques-block{
+    background-color: var(--white-color);
+    width: fit-content;
+    height:65vh;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    position: sticky;
+    top:30vh;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.ans-button:hover{
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
+.ans-button{
+    background-color: var(--white-color);
+}
+
+.qpage-buttons .btn{
+    color: var(--white-color);
+}
